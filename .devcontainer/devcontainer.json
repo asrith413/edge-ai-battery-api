@@ -1,6 +1,9 @@
 {
   "name": "Edge AI Assignment 1 - Battery API",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": { "version": "latest" }
+  },
   "postCreateCommand": "pip install -r requirements.txt",
   "forwardPorts": [8000],
   "portsAttributes": {
